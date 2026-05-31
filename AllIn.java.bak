@@ -1,0 +1,15 @@
+class AllIn 
+{
+	public static void main(String[] args) 
+	{
+	       String name="veeresh bhaskar";
+	      char gender='m';
+	       double heigth=5.2;
+	       int age=21;
+		System.out.println("name:"+name);
+		System.out.println("gender:"+gender);
+        System.out.println("heigth:"+heigth);
+        System.out.println("age:"+age);
+	}
+	}
+	
