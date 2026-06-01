@@ -1,0 +1,27 @@
+class StringPro 
+{
+    public static void main(String[] args) 
+		{
+		int[] a={10,1,5,2,9,7};
+		int b;
+		for (int i=0;i<a.length ;i++ )
+		{
+			for (int j=0;j<a.length ;j++ )
+			{
+				if(a[j]>a[i])
+				{
+					b=a[j];
+				    a[j]=a[i];
+					a[i]=b;
+				}
+			}
+		}
+        for (int j=0;j<a.length ;j++ )
+        {
+			System.out.println(a[j]);
+		
+        }
+	   System.out.printin();
+	  
+}
+	}

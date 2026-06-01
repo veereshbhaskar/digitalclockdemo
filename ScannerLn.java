@@ -1,0 +1,10 @@
+import java.until.Scanner;
+class ScannerLn 
+{
+	public static void main(String[] args) 
+	{
+		scanner scan=new scanner (System.in);
+		System.out.println("what is your name");
+		String name=scan.next();
+	}
+}
